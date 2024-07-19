@@ -1,4 +1,4 @@
-[map "5abba7fd-84d3-309b-b5a4-f6f5dcf78b6d"]
+[map "dc805992-e313-3921-93be-730fd8217a75"]
 	object = 4e945e2c6ac857889f8d077dcf2326aa77d64a8e
-	path = binding-demo
+	path = rxjs-demo
 	type = expand module
