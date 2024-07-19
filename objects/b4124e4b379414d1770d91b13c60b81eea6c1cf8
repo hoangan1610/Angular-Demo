@@ -1,0 +1,84 @@
+[map "6084a453-0b01-3098-96f5-b204bd5820fb"]
+	object = 4e4f54a44139c57913653b203cf52e46906cd74c
+	path = Build-in-directive-control-flow-Demo
+	stage = sync
+	type = extract module
+[map "70da32b1-879f-3d4d-909b-577cfeb2dd8c"]
+	object = d8258c6c7fef4faaee9495928af4e18ef8a75672
+	path = dom-sanitizer
+	stage = sync
+	type = extract module
+[map "fbba693f-d760-39d2-ae83-9032a3048eeb"]
+	object = 19819c4cbd36fa8439a49b32f66158d99f633065
+	path = form-array
+	stage = sync
+	type = extract module
+[map "c3ccadc8-9c20-3394-bc60-8e70665fe1a5"]
+	object = 05430252fe16a0b6e455887d34dc317ccdce2583
+	path = angular-input-output-demo
+	stage = sync
+	type = extract module
+[map "0d822570-8a39-3a09-90e8-55d35e66f4a8"]
+	object = 614bab23c4f57cdd511b7a771859b72b1e342d41
+	path = binding-demo
+	stage = sync
+	type = extract module
+[map "1d254aac-b747-3946-8338-8ff903a792e1"]
+	object = c948676af916667303df5f7553db6d0e20f35d7a
+	path = content-projection-demo
+	stage = sync
+	type = extract module
+[module "ca47655e-3c1c-3b74-b973-95794e21488a"]
+	conflict = request-pull
+	path = angular-input-output-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/830878819
+[module "95aef60c-77f7-32dd-a454-bd4c739467e3"]
+	conflict = request-pull
+	path = binding-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831031726
+[module "a5a32d02-fbd0-3365-8e46-6b00208c4158"]
+	conflict = request-pull
+	path = Build-in-directive-control-flow-Demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032323
+[module "49f1e86f-f6a3-37d5-b0e6-563e9b7d0695"]
+	conflict = request-pull
+	path = content-projection-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032383
+[module "03c9340f-f7e4-3e0a-b1a0-a10b7c6f6f54"]
+	conflict = request-pull
+	path = dom-sanitizer
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032429
+[module "c5a01f25-8e31-34bd-b473-a30a883b42bc"]
+	conflict = request-pull
+	path = form-array
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032463
+[module "d3c163d7-d8ea-3d8e-add0-c6ca039138d2"]
+	conflict = request-pull
+	path = form-validators
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032517
+[map "eb5072ee-7075-3af2-81ce-790103a90f6a"]
+	object = f228ada0535783d4ed0fbdeca8249b0e4558c75c
+	path = form-validators
+	stage = sync
+	type = extract module
