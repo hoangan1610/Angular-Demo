@@ -1,4 +1,4 @@
-[map "7f1028e8-518a-3ab3-b70a-308e13d19849"]
+[map "40a1cfba-5115-3030-90a3-9639bfa0c4a9"]
 	object = 670e71f17d1c8e66ac258e026baa6909e375412d
-	path = http-demo
+	path = routing-demo
 	type = expand module
