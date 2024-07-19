@@ -1,6 +1,5 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { TemplateRefVariableExampleComponent } from './app/template-ref-variable-example/template-ref-variable-example.component';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+bootstrapApplication(TemplateRefVariableExampleComponent)
+  .catch(err => console.error(err));
