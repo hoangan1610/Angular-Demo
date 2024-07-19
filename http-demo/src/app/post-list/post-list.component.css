@@ -1,0 +1,24 @@
+form {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  form button {
+    margin-top: 10px;
+  }
+  
