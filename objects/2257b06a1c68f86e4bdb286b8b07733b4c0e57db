@@ -1,0 +1,12 @@
+[module "ca47655e-3c1c-3b74-b973-95794e21488a"]
+	conflict = request-pull
+	path = angular-input-output-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/830878819
+[map "c3ccadc8-9c20-3394-bc60-8e70665fe1a5"]
+	object = 05430252fe16a0b6e455887d34dc317ccdce2583
+	path = angular-input-output-demo
+	stage = sync
+	type = extract module
