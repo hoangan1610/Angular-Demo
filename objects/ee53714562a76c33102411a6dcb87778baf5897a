@@ -1,0 +1,180 @@
+[map "d31910dc-7608-3e36-8391-947bde683d12"]
+	object = 12682d2340fdf22904295ac5cf13b2de37cafeaf
+	path = viewchild-viewchildren-demo
+	stage = sync
+	type = extract module
+[map "8ffe4027-100d-3cf5-86e8-769c8b853f3f"]
+	object = d865ad5717493b6707dd9868b3d96a4f5e85476e
+	path = string-interpolation-standalone
+	stage = sync
+	type = extract module
+[map "70da32b1-879f-3d4d-909b-577cfeb2dd8c"]
+	object = d8258c6c7fef4faaee9495928af4e18ef8a75672
+	path = dom-sanitizer
+	stage = sync
+	type = extract module
+[map "fbba693f-d760-39d2-ae83-9032a3048eeb"]
+	object = 19819c4cbd36fa8439a49b32f66158d99f633065
+	path = form-array
+	stage = sync
+	type = extract module
+[map "6084a453-0b01-3098-96f5-b204bd5820fb"]
+	object = 4e4f54a44139c57913653b203cf52e46906cd74c
+	path = Build-in-directive-control-flow-Demo
+	stage = sync
+	type = extract module
+[map "5aa68336-e6a1-3222-8f12-450d91e995f3"]
+	object = 1ba68953a7e328a87dd922d7e9f9a74196c6eca9
+	path = rxjs-demo
+	stage = sync
+	type = extract module
+[map "fc254b4f-e428-384d-8e28-704a19b4c00f"]
+	object = 669ed87112b11f0e7709017e8b268c4d496d80ff
+	path = template-ref-variable-demo
+	stage = sync
+	type = extract module
+[map "eb5072ee-7075-3af2-81ce-790103a90f6a"]
+	object = f228ada0535783d4ed0fbdeca8249b0e4558c75c
+	path = form-validators
+	stage = sync
+	type = extract module
+[map "f0cb0b6a-7322-38c3-a8d4-7869caef0e0d"]
+	object = c70678531192aa3329db61de4fb20f6abfd6571e
+	path = lazy-loading
+	stage = sync
+	type = extract module
+[map "ea986dd0-1a8e-360f-b71a-3c2d03f039a7"]
+	object = d692ddae225077e080fd1241b18594a8c0c936df
+	path = reactive-forms-demo
+	stage = sync
+	type = extract module
+[map "c3ccadc8-9c20-3394-bc60-8e70665fe1a5"]
+	object = 05430252fe16a0b6e455887d34dc317ccdce2583
+	path = angular-input-output-demo
+	stage = sync
+	type = extract module
+[map "efeddc9a-19f8-3135-9570-61ac4c921f44"]
+	object = ae7d9c9b35e213507f188054304c44c2c55fac21
+	path = routing-demo
+	stage = sync
+	type = extract module
+[map "1d254aac-b747-3946-8338-8ff903a792e1"]
+	object = c948676af916667303df5f7553db6d0e20f35d7a
+	path = content-projection-demo
+	stage = sync
+	type = extract module
+[map "655469b1-e00d-3c16-9a1c-3b735e7b9800"]
+	object = cddfa90a7efb4125fe8680420d5e068291561ec4
+	path = http-demo
+	stage = sync
+	type = extract module
+[module "3ef29ec8-be52-35c1-9310-dc458d29f5ec"]
+	conflict = request-pull
+	path = viewchild-viewchildren-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032790
+[module "b6174f21-6388-33f3-a2f6-c6fe7a6cbf31"]
+	conflict = request-pull
+	path = string-interpolation-standalone
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032733
+[module "03c9340f-f7e4-3e0a-b1a0-a10b7c6f6f54"]
+	conflict = request-pull
+	path = dom-sanitizer
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032429
+[module "c5a01f25-8e31-34bd-b473-a30a883b42bc"]
+	conflict = request-pull
+	path = form-array
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032463
+[module "a5a32d02-fbd0-3365-8e46-6b00208c4158"]
+	conflict = request-pull
+	path = Build-in-directive-control-flow-Demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032323
+[module "c2b52834-8f20-3504-901f-7584868174b1"]
+	conflict = request-pull
+	path = rxjs-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032696
+[module "b334b640-014a-3080-9c79-b2f41ef731ae"]
+	conflict = request-pull
+	path = template-ref-variable-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032767
+[module "d3c163d7-d8ea-3d8e-add0-c6ca039138d2"]
+	conflict = request-pull
+	path = form-validators
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032517
+[module "ba55e793-5671-34f1-8a78-0730e5357600"]
+	conflict = request-pull
+	path = lazy-loading
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032594
+[module "2d90a612-53e8-3ba1-a5ee-ee634c47f6dc"]
+	conflict = request-pull
+	path = reactive-forms-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032646
+[module "ca47655e-3c1c-3b74-b973-95794e21488a"]
+	conflict = request-pull
+	path = angular-input-output-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/830878819
+[module "3e0b34ac-4fff-3e74-b786-6ffb5b3e82fa"]
+	conflict = request-pull
+	path = routing-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032670
+[module "49f1e86f-f6a3-37d5-b0e6-563e9b7d0695"]
+	conflict = request-pull
+	path = content-projection-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032383
+[module "35f358c9-a845-314b-a429-feabcb21ae19"]
+	conflict = request-pull
+	path = http-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831032566
+[module "95aef60c-77f7-32dd-a454-bd4c739467e3"]
+	conflict = request-pull
+	path = binding-demo
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/master
+	url = agnostic://gh/831031726
+[map "e8b70bf7-d94c-3d22-8d49-30f1163397f7"]
+	object = 6177cc9c32cb91283a001934799c00456a349eb6
+	path = binding-demo
+	stage = sync
+	type = extract module

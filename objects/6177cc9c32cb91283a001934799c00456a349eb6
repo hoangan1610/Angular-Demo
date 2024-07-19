@@ -1,4 +1,4 @@
-[map "d67c7017-e4e1-3794-984b-c4641e813bb6"]
+[map "3c275726-9921-335a-8925-917e3298a321"]
 	object = ee53714562a76c33102411a6dcb87778baf5897a
-	path = lazy-loading
+	path = binding-demo
 	type = expand module
