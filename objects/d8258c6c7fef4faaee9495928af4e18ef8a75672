@@ -1,4 +1,4 @@
-[map "cbfbbde8-f30f-3a1b-afb6-e2e854d37400"]
+[map "72374c12-515d-3a7c-b3d9-b04848a3815c"]
 	object = c30331d19a32558832fdb92188f43e6ac3d16550
-	path = binding-demo
+	path = dom-sanitizer
 	type = expand module
