@@ -1,0 +1,23 @@
+<div>
+    <!-- Data Binding -->
+    <h2>Data Binding</h2>
+    <p>{{ message }}</p>
+  
+    <!-- Property Binding -->
+    <h2>Property Binding</h2>
+    <button [disabled]="isDisabled">Click me!</button>
+  
+    <!-- Style Binding -->
+    <h2>Style Binding</h2>
+    <p [style.color]="isSpecial ? 'red' : 'green'">This text changes color!</p>
+  
+    <!-- Class Binding -->
+    <h2>Class Binding</h2>
+    <p [class.special]="isSpecial">This paragraph has a special class!</p>
+  
+    <!-- Event Binding -->
+    <h2>Event Binding</h2>
+    <button (click)="onClick()">Click me!</button>
+    <p>{{ clickMessage }}</p>
+  </div>
+  
