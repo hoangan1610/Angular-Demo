@@ -1,0 +1,4 @@
+[map "7230accf-a512-3d94-b284-0d2694cfc134"]
+	object = 4ee7923bd7a9aa5ddb108fa4509d71e8cb30b702
+	path = content-projection-demo
+	type = expand module
