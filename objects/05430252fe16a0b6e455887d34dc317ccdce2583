@@ -2,7 +2,7 @@
 	object = 7d4cdccc8dbbd2b3a2991554c7d5f453d4f8e766
 	path = module
 	type = expand module
-[map "e027a0cb-7cbd-3bee-8179-21f7ec1ad23e"]
-	object = 35d70342cbe9a9148679c05d62717616a1237afa
+[map "6be36107-7136-3107-a623-9448f1f5561c"]
+	object = 1c5bcb23702f93fd71329bbbad7d01732a1fdc99
 	path = angular-input-output-demo
 	type = expand module
