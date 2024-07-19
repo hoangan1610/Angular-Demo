@@ -1,4 +1,4 @@
-[map "68b0d7f8-403f-3260-bb59-5f910b83201c"]
-	object = 92c627ce69cf7561728851a7cce58dd29cc1a052
+[map "2692526c-be3c-3da8-a70f-37c67ed027b2"]
+	object = 2a2d2daaac165ffffc1a454cf65c8417b6b5e907
 	path = string-interpolation-standalone
 	type = expand module
