@@ -1,0 +1,9 @@
+<div style="text-align:center; margin: 20px;">
+    <h2>Template Reference Variable Example</h2>
+    
+    <input #inputElement type="text" placeholder="Enter a message">
+    <button (click)="logMessage(inputElement.value)">Log Message</button>
+    
+    <p *ngIf="message">Message: {{ message }}</p> 
+  </div>
+  
