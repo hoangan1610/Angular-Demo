@@ -1,0 +1,4 @@
+[map "672df419-9817-3f5c-9aba-824cfc3e4887"]
+	object = 98de649704f7f1ba4a9869e062e65af810baea00
+	path = template-ref-variable-demo
+	type = expand module
