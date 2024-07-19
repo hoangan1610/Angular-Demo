@@ -1,0 +1,33 @@
+<div style="text-align:center; margin: 20px;">
+    <!-- ngIf Directive -->
+    <h2 *ngIf="isLoggedIn">Welcome, User!</h2>
+    <p *ngIf="!isLoggedIn">Please log in to continue.</p>
+  
+    <!-- ngFor Directive -->
+    <h2>Numbers</h2>
+    <ul>
+      <li *ngFor="let number of numbers">{{ number }}</li>
+    </ul>
+  
+    <!-- ngSwitch Directive -->
+    <h2>Selected Color</h2>
+    <div [ngSwitch]="selectedColor">
+      <p *ngSwitchCase="'blue'" [ngClass]="getColorClass(selectedColor)">Blue</p>
+      <p *ngSwitchCase="'green'" [ngClass]="getColorClass(selectedColor)">Green</p>
+      <p *ngSwitchCase="'red'" [ngClass]="getColorClass(selectedColor)">Red</p>
+      <p *ngSwitchDefault>Default Color</p>
+    </div>
+  
+    <!-- Control Flow - ngIf and ngFor together -->
+    <div *ngIf="showMessage">
+      <h2>Messages</h2>
+      <ul>
+        <li *ngFor="let number of numbers">Message {{ number }}</li>
+      </ul>
+    </div>
+  
+    <!-- Buttons to toggle states -->
+    <button (click)="toggleLogin()" style="margin: 5px;">Toggle Login Status</button>
+    <button (click)="toggleMessage()" style="margin: 5px;">Toggle Message Display</button>
+  </div>
+  

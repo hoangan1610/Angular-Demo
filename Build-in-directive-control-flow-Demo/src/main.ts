@@ -1,6 +1,5 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { DirectiveControlFlowExampleComponent } from './app/directive-control-flow-example/directive-control-flow-example.component';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+bootstrapApplication(DirectiveControlFlowExampleComponent)
+  .catch(err => console.error(err));
