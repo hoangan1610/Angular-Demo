@@ -1,0 +1,22 @@
+<h3>Add Course Lessons:</h3>
+<div class="add-lessons-form" [formGroup]="form">
+  <ng-container formArrayName="lessons">
+    <ng-container *ngFor="let lessonForm of lessonsControls; let i = index">
+      <div [formGroup]="lessonForm">
+        <div>
+          <input formControlName="title" placeholder="Lesson title">
+        </div>
+        <div>
+          <input formControlName="level" placeholder="Lesson level">
+        </div>
+        <button (click)="deleteLesson(i)" type="button">Delete</button>
+      </div>
+      <hr>
+    </ng-container>
+  </ng-container>
+  <button (click)="addLessonForm()" type="button">Add</button>
+  <button (click)="onSubmit()" type="button">Submit</button>
+</div>
+<br>
+All form value: {{ form.value | json }}<br><br>
+Form array value: {{ valueOfLessons | json }}
